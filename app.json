@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Auth0 Demo",
+    "slug": "Auth0 Demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "react-native-auth0",
+        {
+          "domain": "dev-u4balid3uwew6dsf.us.auth0.com"
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.auth0.rndemo"
+    },
+    "ios": {
+      "bundleIdentifier": "com.auth0.rndemo"
+    }
+  }
+}
